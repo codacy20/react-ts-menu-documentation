@@ -17,27 +17,27 @@ export class Links extends Component<{}, {}> {
 
         <div className="wrapper-links">
           <div className="links">
-            <span>Set up</span>
+            <span>Set up a subscription</span>
             <span className="material-icons">keyboard_arrow_right</span>
           </div>
 
           <div className="links">
-            <span>Set up</span>
+            <span>Inetgration checklist</span>
             <span className="material-icons">keyboard_arrow_right</span>
           </div>
 
           <div className="links">
-            <span>Set up</span>
+            <span>Update account details</span>
             <span className="material-icons">keyboard_arrow_right</span>
           </div>
 
           <div className="links">
-            <span>Set up</span>
+            <span>Subscription with add-ons</span>
             <span className="material-icons">keyboard_arrow_right</span>
           </div>
 
           <div className="links">
-            <span>Set up</span>
+            <span>Customization and branding</span>
             <span className="material-icons">keyboard_arrow_right</span>
           </div>
         </div>
