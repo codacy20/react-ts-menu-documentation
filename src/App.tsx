@@ -1,11 +1,11 @@
 import * as React from "react";
+import { Menu } from "./menu/menu";
 import "./styles.css";
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandboxs</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <Menu />
     </div>
   );
 }
