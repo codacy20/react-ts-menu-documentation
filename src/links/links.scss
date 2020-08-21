@@ -1,4 +1,7 @@
 .container-links{
+  padding-left: 30px;
+  padding-right: 30px;
+  box-sizing: border-box;
   background: #F7F9FC;
   border-radius: 17px;
   height: 418px;
@@ -6,4 +9,24 @@
   position: absolute;
   left: 711px;
   top: 15px;
+  .header{
+    margin-top: 35px;
+    color: #6C6E7C;
+    #header-detail{
+      margin-top: 10px;
+    }
+  }
+  .wrapper-links{
+    margin-top: 30px;
+    .links{
+      display: flex;
+      align-items: center;
+      color: #2F3144;
+      margin: 7px 0 7px 0;
+    }
+  }
+  #view-course{
+    margin-top: 50px;
+    color: #2F3144;
+  }
 }
