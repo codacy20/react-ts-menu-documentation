@@ -1,9 +1,18 @@
 .App {
-  font-family: sans-serif;
+  font-family: muli, sans-serif;
   background: #f2f2f2;
   height: 99vh;
   width: 99vw;
   display: flex;
   justify-content: center;
   align-items: center;
+  user-select: none;
+}
+h4 {
+  font-size: 18px;
+  line-height: 23px;
+  margin: 0;
+}
+p {
+  margin: 0;
 }
