@@ -34,7 +34,7 @@ export class Tiles extends Component<{}, {}> {
         <div className="divider"></div>
 
         {this.data.map((item: Tile, index: number) => (
-          <div className="tile">
+          <div className="tile" key={index}>
             <div className="header">
               <span className="material-icons">{item.icon}</span>
               <h4>{item.title}</h4>
